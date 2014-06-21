@@ -18,6 +18,10 @@ function fHandler(e){
   
   var rTable      = [e.parameter.req_TABLE0_tag, e.parameter.req_TABLE1_tag, e.parameter.req_TABLE2_tag, e.parameter.req_TABLE3_tag, e.parameter.req_TABLE4_tag];
   
+  // fetch active tables
+  // check data
+  // store it in spreadsheet
+  
   
   for( var i = 0; i < lUSERS; i++){
     if( rTable[i] == "Active"){
